@@ -20,3 +20,13 @@ const fruits = ["apple", "banana", "orange"]
 fruits.forEach(function(fruit){
     console.log(fruit.toUpperCase())
 });
+
+// 4.Find the sum of all numbers.
+
+const numbers = [2, 4, 6, 8, 10];
+let sum = 0
+numbers.forEach(function(number){
+        sum =sum + number
+
+console.log(sum)
+})
