@@ -13,3 +13,10 @@ names.forEach(function(name){
     console.log(name)
 });
 
+// //3. Print each fruit in uppercase.
+
+const fruits = ["apple", "banana", "orange"]
+
+fruits.forEach(function(fruit){
+    console.log(fruit.toUpperCase())
+});
