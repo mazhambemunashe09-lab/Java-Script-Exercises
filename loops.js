@@ -5,3 +5,11 @@
 //     console.log(number)
 //  });
 
+//  //2. Print every name in an array.
+
+const names = ["Alice", "Bob", "Charlie", "David"];
+
+names.forEach(function(name){
+    console.log(name)
+});
+
