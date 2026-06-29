@@ -30,3 +30,13 @@ numbers.forEach(function(number){
 
 console.log(sum)
 })
+
+//5.Count how many items are in the array using a foreach loop
+let toys = ["car", "truck" , "balls" , "ballons" ]
+let count = 0
+
+toys.forEach(function(toy){
+    count ++;
+})
+    console.log("Number of items = ", count)
+
