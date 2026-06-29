@@ -40,3 +40,16 @@ toys.forEach(function(toy){
 })
     console.log("Number of items = ", count)
 
+    //6. Find the largest number in an array.
+
+const num1 = [12, 45, 7, 89, 23];
+let largest = numbers[0]
+
+num1.forEach(function(number){
+if(number > largest){
+    largest = number
+}
+
+})
+ console.log( largest)
+
