@@ -42,14 +42,27 @@ toys.forEach(function(toy){
 
     //6. Find the largest number in an array.
 
-const num1 = [12, 45, 7, 89, 23];
-let largest = numbers[0]
+// const num1 = [12, 45, 7, 89, 23];
+// let largest = numbers[0]
 
-num1.forEach(function(number){
-if(number > largest){
-    largest = number
-}
+// num1.forEach(function(num1){
+// if(num1 > largest){
+//     largest = num1
+// }
 
-})
- console.log( largest)
+// })
+//  console.log( largest)
+
+//7.Count how many numbers are even.
+const num2 = [1, 2, 3, 4, 5, 6, 7, 8];
+
+let count = 0;
+
+num2.forEach(function(num2) {
+    if (num2 % 2 === 0) {
+        count++;
+    }
+});
+
+console.log(count);
 
