@@ -7,38 +7,38 @@
 
 //  //2. Print every name in an array.
 
-const names = ["Alice", "Bob", "Charlie", "David"];
+// const names = ["Alice", "Bob", "Charlie", "David"];
 
-names.forEach(function(name){
-    console.log(name)
-});
+// names.forEach(function(name){
+//     console.log(name)
+// });
 
-// //3. Print each fruit in uppercase.
+// // //3. Print each fruit in uppercase.
 
-const fruits = ["apple", "banana", "orange"]
+// const fruits = ["apple", "banana", "orange"]
 
-fruits.forEach(function(fruit){
-    console.log(fruit.toUpperCase())
-});
+// fruits.forEach(function(fruit){
+//     console.log(fruit.toUpperCase())
+// });
 
-// 4.Find the sum of all numbers.
+// // 4.Find the sum of all numbers.
 
-const numbers = [2, 4, 6, 8, 10];
-let sum = 0
-numbers.forEach(function(number){
-        sum =sum + number
+// const numbers = [2, 4, 6, 8, 10];
+// let sum = 0
+// numbers.forEach(function(number){
+//         sum =sum + number
 
-console.log(sum)
-})
+// console.log(sum)
+// })
 
-//5.Count how many items are in the array using a foreach loop
-let toys = ["car", "truck" , "balls" , "ballons" ]
-let count = 0
+// //5.Count how many items are in the array using a foreach loop
+// let toys = ["car", "truck" , "balls" , "ballons" ]
+// let count = 0
 
-toys.forEach(function(toy){
-    count ++;
-})
-    console.log("Number of items = ", count)
+// toys.forEach(function(toy){
+//     count ++;
+// })
+//     console.log("Number of items = ", count)
 
     //6. Find the largest number in an array.
 
@@ -54,15 +54,24 @@ toys.forEach(function(toy){
 //  console.log( largest)
 
 //7.Count how many numbers are even.
-const num2 = [1, 2, 3, 4, 5, 6, 7, 8];
+// const num2 = [1, 2, 3, 4, 5, 6, 7, 8];
 
-let count = 0;
+// let count = 0;
 
-num2.forEach(function(num2) {
-    if (num2 % 2 === 0) {
-        count++;
+// num2.forEach(function(num2) {
+//     if (num2 % 2 === 0) {
+//         count++;
+//     }
+// });
+
+// console.log(count);
+
+//8. Print only names that start with the letter "A".
+
+const names = ["Alice", "Bob", "Andrew", "Charlie", "Amy"];
+
+names.forEach(function(name) {
+    if (name.startsWith("A")) {
+        console.log(name);
     }
 });
-
-console.log(count);
-
