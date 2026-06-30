@@ -119,3 +119,17 @@ let sum = 0
     let average = sum / numbers.length
 
  console.log(average)
+ 
+
+ //12 .
+ const words=["cat", "elephant", "dog", "giraffe"]
+ let longestWord = [0]
+
+words.forEach(function(word){
+
+    if(word.length > longestWord.length){
+        longestWord = word
+    }
+})
+console.log(longestWord)
+
