@@ -94,3 +94,14 @@ letter ==="u"
 
 })
 console.log(count)
+
+
+//10. Create a new array where each number is doubled
+
+const numbers = [1 ,2 ,3 ,4 ,5 ,6 ,7 ,8 ,9 ,10]
+let doubledNumber = []
+
+numbers.forEach(function(number){
+doubledNumber = (number*2)
+})
+console.log(doubledNumber)
