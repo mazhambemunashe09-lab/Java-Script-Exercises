@@ -133,3 +133,18 @@ words.forEach(function(word){
 })
 console.log(longestWord)
 
+//13. Count how many students passed (mark ≥ 50).
+
+
+
+const marks = [34, 56, 78, 45, 90, 50];
+
+let passedCount = 0;
+
+marks.forEach(function(mark) {
+    if (mark >= 50) {
+        passedCount++;
+    }
+});
+
+console.log(passedCount);
