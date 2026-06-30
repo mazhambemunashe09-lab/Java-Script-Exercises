@@ -105,3 +105,17 @@ numbers.forEach(function(number){
 doubledNumber = (number*2)
 })
 console.log(doubledNumber)
+
+ //11.Calculate the average of all numbers in an array.
+const numbers = [1, 2, 3, 4, 5]
+let sum = 0
+
+
+ numbers.forEach(function(number){
+    sum += number
+
+
+})
+    let average = sum / numbers.length
+
+ console.log(average)
