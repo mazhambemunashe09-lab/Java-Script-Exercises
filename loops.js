@@ -148,3 +148,34 @@ marks.forEach(function(mark) {
 });
 
 console.log(passedCount);
+
+//14.
+
+const numbers = [1, 2, 3, 2, 4, 5, 1];
+
+const seen = [];
+
+numbers.forEach(number => {
+    if (seen.includes(number)) {
+        console.log(number);
+    } else {
+        seen.push(number);
+    }
+});
+
+
+//15.
+
+const words = ["apple", "banana", "apple", "orange", "banana", "apple"];
+
+const counts = {};
+
+words.forEach(word => {
+    if (counts[word]) {
+        counts[word]++;
+    } else {
+        counts[word] = 1;
+    }
+});
+
+console.log(counts);
