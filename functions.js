@@ -30,5 +30,25 @@ const	greetGuestArrow	=	(name)	=>	{
 };greetGuestArrow("Gerald");
 
 
+const calculateTotalSnacks = (numGuests) => {
+    return numGuests * 2;
+};
+console.log(calculateTotalSnacks(5));
+
+const isEnoughPizza = (numSlices, numGuests) => {
+    return numSlices >= numGuests;
+};console.log(isEnoughPizza(4, 6));
+
+const movieNight = {
+    guest: "Gerald",
+    numGuests: 4,
+    numSlices: 9
+};
+const greet = "Welcome to movie night!";
+console.log(`${greet} ${movieNight.guest}! ${movieNight.numGuests} guests are coming, and we have ${movieNight.numSlices} slices of pizza.`); 
+
+
+
+
 
 
