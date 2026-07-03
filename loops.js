@@ -68,114 +68,214 @@
 
 //8. Print only names that start with the letter "A".
 
-const names = ["Alice", "Bob", "Andrew", "Charlie", "Amy"];
+// const names = ["Alice", "Bob", "Andrew", "Charlie", "Amy"];
 
-names.forEach(function(name) {
-    if (name.startsWith("A")) {
-        console.log(name);
-    }
-});
+// names.forEach(function(name) {
+//     if (name.startsWith("A")) {
+//         console.log(name);
+//     }
+// });
 
-//9. Count how many vowels are in an array of letters.
+// //9. Count how many vowels are in an array of letters.
 
-const letters = ["a", "b", "e", "g", "i", "o", "u"];
-let count = 0
-letters.forEach(function(letter){
-if(
+// const letters = ["a", "b", "e", "g", "i", "o", "u"];
+// let count = 0
+// letters.forEach(function(letter){
+// if(
 
-letter ==="a"||
-letter ==="e"||
-letter ==="i"||
-letter ==="o"||
-letter ==="u"
-  ){  count++
+// letter ==="a"||
+// letter ==="e"||
+// letter ==="i"||
+// letter ==="o"||
+// letter ==="u"
+//   ){  count++
 
-  }
+//   }
 
-})
-console.log(count)
-
-
-//10. Create a new array where each number is doubled
-
-const numbers = [1 ,2 ,3 ,4 ,5 ,6 ,7 ,8 ,9 ,10]
-let doubledNumber = []
-
-numbers.forEach(function(number){
-doubledNumber = (number*2)
-})
-console.log(doubledNumber)
-
- //11.Calculate the average of all numbers in an array.
-const numbers = [1, 2, 3, 4, 5]
-let sum = 0
+// })
+// console.log(count)
 
 
- numbers.forEach(function(number){
-    sum += number
+// //10. Create a new array where each number is doubled
+
+// const numbers = [1 ,2 ,3 ,4 ,5 ,6 ,7 ,8 ,9 ,10]
+// let doubledNumber = []
+
+// numbers.forEach(function(number){
+// doubledNumber = (number*2)
+// })
+// console.log(doubledNumber)
+
+//  //11.Calculate the average of all numbers in an array.
+// const numbers = [1, 2, 3, 4, 5]
+// let sum = 0
 
 
-})
-    let average = sum / numbers.length
+//  numbers.forEach(function(number){
+//     sum += number
 
- console.log(average)
+
+// })
+//     let average = sum / numbers.length
+
+//  console.log(average)
  
 
- //12 .
- const words=["cat", "elephant", "dog", "giraffe"]
- let longestWord = [0]
+//  //12 .
+//  const words=["cat", "elephant", "dog", "giraffe"]
+//  let longestWord = [0]
 
-words.forEach(function(word){
+// words.forEach(function(word){
 
-    if(word.length > longestWord.length){
-        longestWord = word
-    }
-})
-console.log(longestWord)
+//     if(word.length > longestWord.length){
+//         longestWord = word
+//     }
+// })
+// console.log(longestWord)
 
-//13. Count how many students passed (mark ≥ 50).
-
-
-
-const marks = [34, 56, 78, 45, 90, 50];
-
-let passedCount = 0;
-
-marks.forEach(function(mark) {
-    if (mark >= 50) {
-        passedCount++;
-    }
-});
-
-console.log(passedCount);
-
-//14.
-
-const numbers = [1, 2, 3, 2, 4, 5, 1];
-
-const seen = [];
-
-numbers.forEach(number => {
-    if (seen.includes(number)) {
-        console.log(number);
-    } else {
-        seen.push(number);
-    }
-});
+// //13. Count how many students passed (mark ≥ 50).
 
 
-//15.
 
-const words = ["apple", "banana", "apple", "orange", "banana", "apple"];
+// const marks = [34, 56, 78, 45, 90, 50];
 
-const counts = {};
+// let passedCount = 0;
 
-words.forEach(word => {
-    if (counts[word]) {
-        counts[word]++;
-    } else {
-        counts[word] = 1;
-    }
-});
+// marks.forEach(function(mark) {
+//     if (mark >= 50) {
+//         passedCount++;
+//     }
+// });
 
-console.log(counts);
+// console.log(passedCount);
+
+// //14.
+
+// const numbers = [1, 2, 3, 2, 4, 5, 1];
+
+// const seen = [];
+
+// numbers.forEach(number => {
+//     if (seen.includes(number)) {
+//         console.log(number);
+//     } else {
+//         seen.push(number);
+//     }
+// });
+
+
+// //15.
+
+// const words = ["apple", "banana", "apple", "orange", "banana", "apple"];
+
+// const counts = {};
+
+// words.forEach(word => {
+//     if (counts[word]) {
+//         counts[word]++;
+//     } else {
+//         counts[word] = 1;
+//     }
+// });
+
+//console.log(counts);
+
+//A security guard checking people entering a building
+// let peopleEntering = 1
+
+// while(peopleEntering <= 5){
+//     console.log ("You may enter")
+//     peopleEntering ++
+// }
+// let number = 1
+
+// while (number <= 100){
+//     console.log(number)
+//     number++
+// }
+
+// let pin = "";
+
+// do {
+//     pin = prompt("Enter your PIN");
+// } while (pin !== "1234");
+
+// console.log("Welcome!");
+
+
+// let age;
+
+// do {
+//     age = Number(prompt("Enter your age"));
+// } while (age < 0);
+
+// if (age >= 18) {
+//     console.log("You are eligible to vote.");
+    
+
+// } else {
+//     console.log("You are not eligible to vote.");
+
+// }
+
+// function greet(name) {
+//     console.log("Hello " + name);
+// }
+
+// greet("Munashe");
+
+// // Multiple parameters
+
+// function add(a, b) {
+//     console.log(a + b);
+// }
+// add(5, 3);
+
+
+
+// let fruits = ["apple", "banana", "orange"];
+// for(const fruit of fruits){
+//     console.log(fruit)
+// }
+
+
+
+
+
+
+// function  greet (name){
+//     console.log("Hello " + name)
+// }
+// greet("Munashe")
+// greet("Tinashe")
+
+// function calculateTotal(a, b){
+//     console.log(a + b)
+// }
+// calculateTotal(5, 10);
+// calculateTotal(20, 30);
+
+// Function expression
+// const login = function(){
+//     console.log("user login")
+// }
+// login();
+
+//arrow function
+//const logout = () => {
+//     console.log("user logout");
+// };
+// logout();
+
+// with parameters
+// const add = (a, b) => {
+//     return a + b;}
+
+//     console.log(add(5, 10));//
+
+// //anonymous function
+// button.addEventListener("click", function() {
+//     console.log("Button clicked");
+// });
+
+//function with parameters
